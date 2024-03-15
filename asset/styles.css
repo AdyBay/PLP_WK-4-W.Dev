@@ -1,0 +1,102 @@
+*{
+    margin: o;
+    padding: o;
+}
+
+/* Media responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(193, 168, 216, 0.482);
+}
+
+.header{
+    background-color: rgb(218, 147, 32);
+    color: #fff;
+    padding: 23px;
+    text-align: center;
+}
+
+.introduction{
+    background-color: #dbe1d75e;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skils h3{
+color: #333;
+}
+
+.skills ul{
+    list-style: none;
+    padding: o;
+}
+
+.skills ul li{
+    margin-bottom: 12px;
+}
+
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 22px;
+    text-align: center;
+}
+
+.foot_container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.foot_end {
+        background-color: #2196f3;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.obelisk-button-text {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.obelisk-button-text:hover {
+    background-color: #e55b00;
+}
